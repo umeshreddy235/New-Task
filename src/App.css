@@ -1,0 +1,131 @@
+.app{
+  background-color: #004d4d;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+.card{
+  background-color: white;
+  height: 50px;
+  
+}
+
+@media only screen and (min-width: 600px) {
+  
+  .popup{
+    height: 100px;
+    width: 30%;
+    background-color: #cccccc;
+    position: absolute;
+    top: 25%;
+    right: 44%;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .popup-header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5px 0 10px;
+}
+}
+
+
+.normalCard{
+  padding-top:80px;
+ 
+}
+.buttonOne{
+  padding: 5px;
+  margin-top: 9px;
+  margin-left: 55px;
+  width: 70px;
+  font-size: 18px;
+}
+.leftCard{
+  background-color: #a3c2c2;
+  width: 250px;
+  height: 500px;
+  margin-top: 20px;
+  resize: horizontal;
+  overflow: auto;
+}
+.smallCard{
+  background-color: #cccccc;
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+  box-shadow: 5px 10px 18px #888888;
+  margin-bottom: 10px;
+  
+ 
+}
+.lefSmallCard{
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.middleCard {
+  background-color: white;
+  width: 980px;
+  height: 520px;
+  box-shadow: 5px 7px 18px #888888;
+  margin-top: 1px;
+  margin-left: 3px;
+  overflow: hidden;
+  margin-right: 2px;
+}
+
+.mainCard{
+  display: flex;
+}
+
+/* PopUp */
+.main {
+  margin-top: 70px;
+}
+
+.popup{
+  height: 140px;
+  width: 18%;
+  background-color: #cccccc;
+  position: absolute;
+  top: 25%;
+  right: 44%;
+  box-shadow: 5px 10px 18px #888888;
+}
+.popup-header{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5px 0 10px;
+}
+.xOne{
+  background-color:red ;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 20px;
+ padding-left: 8px;
+  width: 20px;
+  height: 24px;
+ margin-left: 5px;
+ padding-bottom: 5px;
+}
+
+.rightCard{
+  background-color: #a3c2c2;
+  width: 320px;
+  height: 520px;
+  resize: both;
+}
+
+
+.foABhh .Resizer.vertical > dotviewcontainer {
+  width: 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
